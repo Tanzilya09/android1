@@ -29,13 +29,13 @@ public class MainActivity2 extends AppCompatActivity {
         }
         switch (text){
             case "WhatsApp":
-                photo.setImageResource(R.drawable.p);
+                ivImage.setImageResource(R.drawable.p);
                 break;
             case "YouTube":
-                photo.setImageResource(R.drawable.k);
+                ivImage.setImageResource(R.drawable.k);
                 break;
             case "Chrome":
-                photo.setImageResource(R.drawable.t);
+                ivImage.setImageResource(R.drawable.t);
                 break;
         }
     }
